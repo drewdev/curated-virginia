@@ -19,6 +19,15 @@ class MarkdownWrapper extends React.Component {
           <h1 style={{marginTop: 0}}>{post.title}</h1>
           <img src={post.image} alt={post.title} />
           <div dangerouslySetInnerHTML={{ __html: post.body }} />
+          <a href='#' className='snipcart-add-item'
+            data-item-id={post.id}
+            data-item-price={post.price}
+            data-item-image={post.image}
+            data-item-name={post.title}
+            data-item-description={post.description}
+            data-item-url={"http://snipcart-gatsby.netlify.com" + post.path}>
+            Reserve
+          </a>
           <em
             style={{
               display: 'block',

@@ -37,6 +37,11 @@ module.exports = React.createClass({
         <body className="landing-page">
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: body }} />
           <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+          <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="N2M5YmE1MmMtNDdmMi00ZGI3LTgxYmYtNmZmMzUyNDg0NzRhNjM2MDc4NzA3NTc3Njk0MjUz"></script>
+
+          <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
         </body>
       </html>
     )
