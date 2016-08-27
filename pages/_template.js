@@ -26,7 +26,7 @@ class Template extends React.Component {
             }}
             to={prefixLink('/')}
           >
-            {config.blogTitle}
+            <img src="./curated-logo.png" alt="Curated" />
           </Link>
         </h1>
       )
