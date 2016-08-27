@@ -4,7 +4,6 @@ import DocumentTitle from 'react-document-title'
 import ReadNext from '../components/ReadNext'
 import { rhythm } from 'utils/typography'
 import { config } from 'config'
-import Bio from 'components/Bio'
 
 import '../css/zenburn.css'
 
@@ -42,7 +41,6 @@ class MarkdownWrapper extends React.Component {
             }}
           />
           <ReadNext post={post} pages={route.pages} />
-          <Bio />
         </div>
       </DocumentTitle>
     )

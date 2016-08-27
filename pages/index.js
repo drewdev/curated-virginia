@@ -7,7 +7,6 @@ import { rhythm } from 'utils/typography'
 import access from 'safe-access'
 import { config } from 'config'
 import include from 'underscore.string/include'
-import Bio from 'components/Bio'
 
 class BlogIndex extends React.Component {
   render () {
@@ -34,7 +33,6 @@ class BlogIndex extends React.Component {
     return (
       <DocumentTitle title={config.blogTitle}>
         <div>
-          <Bio />
           <ul>
             {pageLinks}
           </ul>
