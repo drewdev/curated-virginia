@@ -1,8 +1,18 @@
-# gatsby-starter-blog
-Gatsby starter for creating a blog
+#Overview
+A static site generator with e-commerce integration using Gatsby and Snipcart.
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-blog https://github.com/gatsbyjs/gatsby-starter-blog`
+Modified from the [Gatsby Starter Blog]("https://github.com/gatsbyjs/gatsby-starter-blog") bootstrap.
 
-## Running in development
-`gatsby develop`
+## Local Development
+
+```
+$ gatsby develop
+```
+
+## Build
+
+```
+$ gatsby build
+```
+
+Then copy contents of public/ to S3
